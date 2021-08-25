@@ -1,0 +1,18 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="soundViewModel"
+            type="com.bignerd.beatbox.SoundViewModel" />
+    </data>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#7693BD"
+        app:cornerRadius="3dp"
+        android:onClick="@{() -> soundViewModel.onButtonClicked()}"
+        android:text="@{soundViewModel.title}"
+        tools:text="Sound name" />
+</layout>

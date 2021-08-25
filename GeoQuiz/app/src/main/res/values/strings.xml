@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="question_filler">There should be the question</string>
+    <string name="button_true">True</string>
+    <string name="button_false">False</string>
+    <string name="question_moscow">Moscow is the capital of Russia</string>
+    <string name="question_saintPeter">Saint-Petesburg is the town in USA</string>
+    <string name="question_america">America is the island</string>
+    <string name="correct_answer">Correct answer!</string>
+    <string name="wrong_answer">Wrong answer!</string>
+
+    //Chapter 6
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
+</resources>
